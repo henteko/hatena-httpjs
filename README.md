@@ -9,7 +9,7 @@ var text = '[http://google.com]';
 var hatena = new HatenaHttp();
 hatena.parse(text, function(replacedText) {
   // replacedTextに変換したhtmlが入ってくる
-  console.log(replacedText);
+  console.log(replacedText); //ここでは<a href="http://google.com">http://google.com</a>が入ってくる
 });
 ```
 
