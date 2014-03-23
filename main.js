@@ -2,10 +2,11 @@ $(function() {
   var $text = $('#text');
   var $pre = $('#preview');
 
-  var text = $text.val();
-  var hatena = new HatenaHttp(text);
-  hatena.parse();
-  setTimeout(function() {
-    $pre.html(hatena.text);
-  }, 1000);
+  var hatena = new HatenaHttp();
+  $text.keyup(function() {
+    var text = $text.val();
+    hatena.parse(text, function(replacedText) {
+      $pre.html(replacedText);
+    });
+  });
 });
