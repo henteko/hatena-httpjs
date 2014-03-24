@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/henteko/hatena-httpjs.svg?branch=master)](https://travis-ci.org/henteko/hatena-httpjs)
+
 # はてな記法のhttp記法のパーサー
 [http記法](http://d.hatena.ne.jp/keyword/http%B5%AD%CB%A1)
 
