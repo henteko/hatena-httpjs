@@ -39,5 +39,5 @@ $ bundle exec rake jasmine:ci
 ### ESLintの実行
 ```
 $ npm install eslint
-$ eslint lib/hatena-http.js
+$ eslint lib/*.js
 ```

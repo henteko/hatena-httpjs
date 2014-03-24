@@ -1,4 +1,6 @@
 install:
-  bundle install --path vender/bundle
+  - bundle install --path vender/bundle
+  - npm install eslint
 script:
-  bundle exec rake jasmine:ci
+  - bundle exec rake jasmine:ci
+  - eslint lib/*.js
