@@ -2,7 +2,7 @@
 [http記法](http://d.hatena.ne.jp/keyword/http%B5%AD%CB%A1)
 
 # 使い方
-hatena-http.jsが本体  
+lib/hatena-http.jsが本体  
 
 ```javascript
 var text = '[http://google.com]';
