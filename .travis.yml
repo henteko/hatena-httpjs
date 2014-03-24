@@ -1,0 +1,4 @@
+install:
+  bundle install --path vender/bundle
+script:
+  bundle exec rake jasmine:ci
