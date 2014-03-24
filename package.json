@@ -1,0 +1,25 @@
+{
+  "name": "hatena-httpjs",
+  "version": "0.1.0",
+  "description": "hatena kihou",
+  "main": "lib/hatena-http.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "bundle exec rake jasmine:ci && eslint lib/*.js"
+  },
+  "devDependencies": {
+    "eslint": "~0.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henteko/hatena-httpjs.git"
+  },
+  "author": "henteko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henteko/hatena-httpjs/issues"
+  },
+  "homepage": "https://github.com/henteko/hatena-httpjs"
+}

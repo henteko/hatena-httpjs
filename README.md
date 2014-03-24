@@ -30,14 +30,8 @@ hatena.parse(text, function(replacedText) {
 * [http://example.com/hoge.jpg:image]で画像表示
 
 ## テストとか
-### テストの実行
 ```
 $ bundle install --path vender/bundle
-$ bundle exec rake jasmine:ci
-```
-
-### ESLintの実行
-```
-$ npm install eslint
-$ eslint lib/*.js
+$ npm install
+$ npm test
 ```
