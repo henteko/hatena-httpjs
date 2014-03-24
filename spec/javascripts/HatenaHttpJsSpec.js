@@ -28,7 +28,7 @@ describe("HatenaHttp class is", function() {
 
   it("success set title", function() {
     var text = '[http://example.com:title=example]';
-    var result = '<a href=http://example.com>example</a>';
+    var result = '<a href=http://example.com target="_blank">example</a>';
     hatena.parse(text, function(replacedText) {
       expect(replacedText).toEqual(result);
     });
@@ -36,9 +36,9 @@ describe("HatenaHttp class is", function() {
 
   it("not set type to generate link", function() {
     var text = '[http://example.com]';
-    var result = '<a href=http://example.com>http://example.com</a>';
-    hatena.parse(text, function(replacedtext) {
-      expect(replacedtext).toequal(result);
+    var result = '<a href=http://example.com target="_blank">http://example.com</a>';
+    hatena.parse(text, function(replacedText) {
+      expect(replacedText).toEqual(result);
     });
   });
 });
